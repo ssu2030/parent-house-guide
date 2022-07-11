@@ -5,7 +5,8 @@ import Button from '@material-ui/core/Button';
 
 const MainPageComponent: React.FC = () => {
 
-    return <div
+    return (
+    <div
         className="Main"
     >
        <Button id={"homeButton"} variant="outlined" className="HomeButton">
@@ -20,7 +21,8 @@ const MainPageComponent: React.FC = () => {
         <Button id={"wayButton"}  variant="outlined" className="HomeButton">
             오시는 길
         </Button>
-    </div>;
+    </div>)
+    ;
 
 }
 
