@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/parent-house-guide/static/css/main.54c5312d.css",
+    "main.css": "/parent-house-guide/static/css/main.afb21b96.css",
     "main.js": "/parent-house-guide/static/js/main.bef18dc7.js",
     "static/js/787.16df5757.chunk.js": "/parent-house-guide/static/js/787.16df5757.chunk.js",
     "static/media/logo.svg": "/parent-house-guide/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/parent-house-guide/index.html",
-    "main.54c5312d.css.map": "/parent-house-guide/static/css/main.54c5312d.css.map",
+    "main.afb21b96.css.map": "/parent-house-guide/static/css/main.afb21b96.css.map",
     "main.bef18dc7.js.map": "/parent-house-guide/static/js/main.bef18dc7.js.map",
     "787.16df5757.chunk.js.map": "/parent-house-guide/static/js/787.16df5757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54c5312d.css",
+    "static/css/main.afb21b96.css",
     "static/js/main.bef18dc7.js"
   ]
 }
