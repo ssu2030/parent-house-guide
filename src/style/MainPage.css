@@ -8,10 +8,13 @@
     background-color: whitesmoke;
 }
 
+.ButtonWrapper {
+    padding: 20px;
+}
+
 .HomeButton {
-    background-color: blue;
     width: 200px;
     height: 80px;
-    padding: 10px;
-    margin: 15px;
+    padding: 100px;
+    margin: 20px;
 }
