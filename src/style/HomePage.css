@@ -4,3 +4,9 @@
     height: 100%;
     min-height: 500px;
 }
+
+.OutDivision {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

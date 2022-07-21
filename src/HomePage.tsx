@@ -11,27 +11,24 @@ import houseWithWall from './photo/housewithwall.jpeg';
 import houseback from './photo/beahouse.jpeg';
 import window from './photo/windowsecondfloor.jpeg';
 
-
-
 const HomePageComponent: React.FC = () => {
     
     SwiperCore.use([Navigation]);
     
-    
     return (
-    <div >
+    <div className="OutDivision">
         <Swiper className="Swiper">
             <SwiperSlide>
-                <img alt={"img"} src={summerHouse}/>
+                <img alt={"img"} style={{width:"400px", height:"400px"}} src={summerHouse}/>
             </SwiperSlide>
             <SwiperSlide>
-                <img alt={"img"} src={houseWithWall}/>
+                <img alt={"img"} style={{width:"400px", height:"400px"}} src={houseWithWall}/>
             </SwiperSlide>
             <SwiperSlide>
-                <img alt={"img"} src={houseback}/>
+                <img alt={"img"} style={{width:"400px", height:"400px"}} src={houseback}/>
             </SwiperSlide>
             <SwiperSlide>
-                <img alt={"img"} src={window}/>
+                <img alt={"img"} style={{width:"400px", height:"400px"}} src={window}/>
             </SwiperSlide>
         </Swiper>
     </div>)
