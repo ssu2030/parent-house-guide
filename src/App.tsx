@@ -6,7 +6,6 @@ import MainPageComponent from './MainPage';
 function App() {
   return (
     <div className="App">
-     
         <MainPageComponent/>
     </div>
   );
