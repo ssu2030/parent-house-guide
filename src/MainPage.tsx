@@ -15,7 +15,7 @@ const MainPageComponent: React.FC = () => {
     return (
     <>
         <div className="Main">
-            <div>
+            <div className="Title">
             maison de essence
             </div>
             <HomePageComponent/>
