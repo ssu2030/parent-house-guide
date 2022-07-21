@@ -13,6 +13,12 @@
 }
 
 .HomeButton {
-    width: 200px;
-    height: 80px;
+    width: 20%;
+    height: 100%;
+}
+
+.ButtonsWrapper {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
 }
