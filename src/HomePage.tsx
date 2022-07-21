@@ -6,6 +6,11 @@ import SwiperCore, { Navigation} from "swiper";
 
 import './style/HomePage.css'
 
+import summerHouse from './photo/summerhouse.jpeg';
+import houseWithWall from './photo/housewithwall.jpeg';
+import houseback from './photo/beahouse.jpeg';
+import window from './photo/windowsecondfloor.jpeg';
+
 
 
 const HomePageComponent: React.FC = () => {
@@ -16,9 +21,18 @@ const HomePageComponent: React.FC = () => {
     return (
     <div >
         <Swiper className="Swiper">
-            <SwiperSlide>1</SwiperSlide>
-            <SwiperSlide>2</SwiperSlide>
-            <SwiperSlide>3</SwiperSlide>
+            <SwiperSlide>
+                <img alt={"img"} src={summerHouse}/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <img alt={"img"} src={houseWithWall}/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <img alt={"img"} src={houseback}/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <img alt={"img"} src={window}/>
+            </SwiperSlide>
         </Swiper>
     </div>)
     ;
