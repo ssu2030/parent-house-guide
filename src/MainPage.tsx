@@ -15,6 +15,10 @@ const MainPageComponent: React.FC = () => {
     return (
     <>
         <div className="Main">
+            <div>
+            maison de essence
+            </div>
+            <HomePageComponent/>
             <div className="ButtonsWrapper">
                 <div className="ButtonWrapper">
                     <Button id={"homeButton"} variant="text" className="HomeButton">
@@ -37,7 +41,7 @@ const MainPageComponent: React.FC = () => {
                     </Button>
                 </div>
             </div>
-            <HomePageComponent/>
+            
         </div>
     </>
     )
