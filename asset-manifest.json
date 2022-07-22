@@ -1,24 +1,36 @@
 {
   "files": {
-    "main.css": "/parent-house-guide/static/css/main.f1f64e5a.css",
-    "main.js": "/parent-house-guide/static/js/main.6ae320db.js",
+    "main.css": "/parent-house-guide/static/css/main.e783955b.css",
+    "main.js": "/parent-house-guide/static/js/main.0acc8696.js",
     "static/js/787.16df5757.chunk.js": "/parent-house-guide/static/js/787.16df5757.chunk.js",
+    "static/media/water.jpeg": "/parent-house-guide/static/media/water.49b66788a63b1111f869.jpeg",
     "static/media/summerhouse.jpeg": "/parent-house-guide/static/media/summerhouse.84ce805954135b75ef75.jpeg",
     "static/media/housewithwall.jpeg": "/parent-house-guide/static/media/housewithwall.b3770799ed68a30d333e.jpeg",
+    "static/media/beforeBuilted2.jpeg": "/parent-house-guide/static/media/beforeBuilted2.7af827259bd72bdb6f17.jpeg",
     "static/media/windowsecondfloor.jpeg": "/parent-house-guide/static/media/windowsecondfloor.13fc2ea8b7380db3db17.jpeg",
+    "static/media/beforeBuilted4.jpeg": "/parent-house-guide/static/media/beforeBuilted4.c457070e137f405be8bd.jpeg",
+    "static/media/BeforeBuilted1.jpeg": "/parent-house-guide/static/media/BeforeBuilted1.8808bf253258438b855a.jpeg",
+    "static/media/beforeBuilted3.jpeg": "/parent-house-guide/static/media/beforeBuilted3.b627d305e10c91a86364.jpeg",
+    "static/media/skyWithTrees.jpeg": "/parent-house-guide/static/media/skyWithTrees.05896ec84dbfde6e7934.jpeg",
+    "static/media/farming.jpeg": "/parent-house-guide/static/media/farming.14906f1ae26e878b6a07.jpeg",
+    "static/media/water2.jpeg": "/parent-house-guide/static/media/water2.92960e29a09a04ee4c78.jpeg",
+    "static/media/fogGrass.jpeg": "/parent-house-guide/static/media/fogGrass.e3cd87b84dd6f4f6e25b.jpeg",
     "static/media/map.png": "/parent-house-guide/static/media/map.d9cac6ef52c31eacc136.png",
     "static/media/home.png": "/parent-house-guide/static/media/home.b7f5ff2653f1f305d7a5.png",
     "static/media/beahouse.jpeg": "/parent-house-guide/static/media/beahouse.70f98f29da908b373066.jpeg",
+    "static/media/flower.jpeg": "/parent-house-guide/static/media/flower.ef865ad4189ca6083ea1.jpeg",
+    "static/media/flowerwithbees.jpeg": "/parent-house-guide/static/media/flowerwithbees.b2c5f973e08423fe28e0.jpeg",
+    "static/media/beasky.jpeg": "/parent-house-guide/static/media/beasky.640927194d2fd3cc222e.jpeg",
     "static/media/description.png": "/parent-house-guide/static/media/description.a8500223911cc5305284.png",
     "static/media/caution.png": "/parent-house-guide/static/media/caution.36383506084c52823207.png",
     "static/media/title.png": "/parent-house-guide/static/media/title.cb677fb9b6b862175838.png",
     "index.html": "/parent-house-guide/index.html",
-    "main.f1f64e5a.css.map": "/parent-house-guide/static/css/main.f1f64e5a.css.map",
-    "main.6ae320db.js.map": "/parent-house-guide/static/js/main.6ae320db.js.map",
+    "main.e783955b.css.map": "/parent-house-guide/static/css/main.e783955b.css.map",
+    "main.0acc8696.js.map": "/parent-house-guide/static/js/main.0acc8696.js.map",
     "787.16df5757.chunk.js.map": "/parent-house-guide/static/js/787.16df5757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1f64e5a.css",
-    "static/js/main.6ae320db.js"
+    "static/css/main.e783955b.css",
+    "static/js/main.0acc8696.js"
   ]
 }
