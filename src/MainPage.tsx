@@ -10,11 +10,14 @@ import Button from '@material-ui/core/Button';
 
 import HomePageComponent from './HomePage';
 import DescriptionPageComponent from "./DescriptionPage";
+import MapPageComponent from "./MapPage";
 
 const MainPageComponent: React.FC = () => {
     
     const [hompageOpen,setHompageOpen] = useState<boolean>(true);
     const [descriptionPageOpen,setDescriptionPageOpen] = useState<boolean>(false);
+    const [mapPageOpen,setMapPageOpen] = useState<boolean>(false);
+    const [cautionPageOpen,setCautionPageOpen] = useState<boolean>(false);
 
     return (
     <div id="MainWrapper" className="MainWrapper">
@@ -24,11 +27,14 @@ const MainPageComponent: React.FC = () => {
             </div>
             {hompageOpen && <HomePageComponent/>}
             {descriptionPageOpen && <DescriptionPageComponent/>}
+            {mapPageOpen && <MapPageComponent/>}
             <div className="ButtonsWrapper">
                 <div className="ButtonWrapper">
                     <Button id={"homeButton"} variant="text" className="HomeButton" onClick={e=>{
                         setHompageOpen(true);
                         setDescriptionPageOpen(false);
+                        setMapPageOpen(false);
+                        setCautionPageOpen(false);
                     }}>
                         <img alt={"home"} style={{width: "54px", height: "54px"}} src={home}/>
                     </Button>
@@ -37,17 +43,29 @@ const MainPageComponent: React.FC = () => {
                     <Button id={"introButton"} variant="text" className="HomeButton" onClick={e=>{
                         setHompageOpen(false);
                         setDescriptionPageOpen(true);
+                        setMapPageOpen(false);
+                        setCautionPageOpen(false);
                     }}>
                         <img alt={"description"} style={{width: "54px", height: "54px"}} src={description}/>
                     </Button>
                 </div>
                 <div className="ButtonWrapper">
-                    <Button id={"warnButton"} variant="text" className="HomeButton">
+                    <Button id={"warnButton"} variant="text" className="HomeButton" onClick={e=>{
+                        setHompageOpen(false);
+                        setDescriptionPageOpen(false);
+                        setMapPageOpen(false);
+                        setCautionPageOpen(true);
+                    }}>
                         <img alt={"caution"} style={{height: "54px"}} src={caution}/>
                     </Button>
                 </div>
                 <div className="ButtonWrapper">
-                    <Button id={"wayButton"} variant="text" className="HomeButton">
+                    <Button id={"wayButton"} variant="text" className="HomeButton" onClick={e=>{
+                        setHompageOpen(false);
+                        setDescriptionPageOpen(false);
+                        setMapPageOpen(true);
+                        setCautionPageOpen(false);
+                    }}>
                         <img alt={"map"} style={{ height: "54px"}} src={map}/>
                     </Button>
                 </div>
