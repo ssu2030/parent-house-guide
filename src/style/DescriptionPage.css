@@ -11,9 +11,10 @@
     align-items: center;
     justify-content: center;
     max-width: 420px;
-    height: fit-content;
+    height: 480pxt;
     max-height: 480px;
     overflow: auto;
+    margin: 0 auto;
 }
 
 .StringDivision {

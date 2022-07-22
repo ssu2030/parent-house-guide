@@ -13,6 +13,7 @@
     max-width: 426px;
     max-height: 720px;
     background-color: white;
+    margin: 0 auto;
 }
 
 .ButtonWrapper {
