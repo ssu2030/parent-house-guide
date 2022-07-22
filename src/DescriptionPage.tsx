@@ -32,7 +32,10 @@ const DescriptionPageComponent: React.FC = () => {
     
     return (
     <div className="DescriptionOutDivision">
-        <Swiper className="Swiper" pagination={true}>
+        <Swiper className="Swiper" spaceBetween={30}
+            pagination={{
+                clickable: true,
+            }}>
             <SwiperSlide>
                 <img alt={"img"} style={{width:"380px", height:"380px"}} src={BF1}/>
             </SwiperSlide>
@@ -55,7 +58,10 @@ const DescriptionPageComponent: React.FC = () => {
             2020년 부터, 짓기 시작한 집은 약 1년에 걸쳐 완공되었습니다. 여러 설계 도면중 프랑스 기와를 선택하여 꽃을 좋아하는 어머니와, 주변의 자연을 가꾸는 것을 좋아하는 아버지에게 어울리는 느낌으로 지은 집입니다.
             <br></br>
         </div>
-        <Swiper className="Swiper" pagination={true}>
+        <Swiper className="Swiper" spaceBetween={30}
+            pagination={{
+                clickable: true,
+            }}>
             <SwiperSlide>
                 <img alt={"img"} style={{width:"380px", height:"380px"}} src={flower1}/>
             </SwiperSlide>
@@ -74,7 +80,10 @@ const DescriptionPageComponent: React.FC = () => {
             <br></br>
             어머니께서 특히 좋아하시는 화단은 부모님께서 함께 관리하십니다. 뿐만아니라 집주변 작은 돌담들은 아버지와 어머니께서 직접 쌓아올리신 것이므로 훼손하게 되는 경우, 원상복구 시켜야 합니다.
         </div>
-        <Swiper className="Swiper" pagination={true}>
+        <Swiper className="Swiper" spaceBetween={30}
+            pagination={{
+                clickable: true,
+            }}>
             <SwiperSlide>
                 <img alt={"img"} style={{width:"380px", height:"380px"}} src={farm1}/>
             </SwiperSlide>
@@ -88,7 +97,10 @@ const DescriptionPageComponent: React.FC = () => {
             밭에 있는 작물이나 하우스에 있는 채소들을 훼손하거나 가져가실 경우 그에 맞는 보상을 해주셔야 합니다.
             <br></br>
         </div>
-        <Swiper className="Swiper" pagination={true}>
+        <Swiper className="Swiper" spaceBetween={30}
+            pagination={{
+                clickable: true,
+            }}>
             <SwiperSlide>
                 <img alt={"img"} style={{width:"380px", height:"380px"}} src={water1}/>
             </SwiperSlide>
