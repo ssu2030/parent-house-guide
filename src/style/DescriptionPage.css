@@ -6,8 +6,17 @@
 
 .OutDivision {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
     overflow: scroll;
+}
+
+.StringDivision {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
 }
