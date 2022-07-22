@@ -17,7 +17,7 @@ const MainPageComponent: React.FC = () => {
     <>
         <div className="Main">
             <div className="Title">
-                <img alt={"title"} style={{width: "100%", height: "30px"}} src={title}/>
+                <img alt={"title"} style={{width: "60%"}} src={title}/>
             </div>
             <HomePageComponent/>
             <div className="ButtonsWrapper">
