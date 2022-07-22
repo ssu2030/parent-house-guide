@@ -30,7 +30,7 @@ const DescriptionPageComponent: React.FC = () => {
     SwiperCore.use([Navigation]);
     
     return (
-    <div className="OutDivision">
+    <div className="DescriptionOutDivision">
         <div className="StringDivision">
             짓는 과정
         </div>

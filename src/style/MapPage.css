@@ -1,6 +1,5 @@
 
-.OutDivision {
-    display: flex;
+.MapOutDivision {
     align-items: center;
     justify-content: center;
     max-width: 420px;
