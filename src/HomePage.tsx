@@ -16,7 +16,7 @@ const HomePageComponent: React.FC = () => {
     SwiperCore.use([Navigation]);
     
     return (
-    <div className="OutDivision">
+    <div className="HomeOutDivision">
         <Swiper className="Swiper">
             <SwiperSlide>
                 <img alt={"img"} style={{width:"400px", height:"400px"}} src={summerHouse}/>
