@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: fit-content;
     max-width: 426px;
-    max-height: 620px;
+    max-height: 720px;
     background-color: white;
 }
 
@@ -24,12 +24,14 @@
     bottom: 0px;
     display: flex;
     flex-direction: row;
-    height: 72px;
+    height: 120px;
+    max-height: 120px;
     align-items: center;
     justify-content: center;
 }
 
 .Title {
     height: 20%;
+    max-height: 120px;
     text-align: center;
 }

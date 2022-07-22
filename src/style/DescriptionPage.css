@@ -11,8 +11,8 @@
     align-items: center;
     justify-content: center;
     max-width: 420px;
-    height: 500px;
-    max-height: 500px;
+    height: fit-content;
+    max-height: 480px;
     overflow: auto;
 }
 
