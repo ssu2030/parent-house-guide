@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/parent-house-guide/static/css/main.2ac5f8cb.css",
+    "main.css": "/parent-house-guide/static/css/main.f2c32e3a.css",
     "main.js": "/parent-house-guide/static/js/main.f6997d8a.js",
     "static/js/787.16df5757.chunk.js": "/parent-house-guide/static/js/787.16df5757.chunk.js",
     "static/media/summerhouse.jpeg": "/parent-house-guide/static/media/summerhouse.84ce805954135b75ef75.jpeg",
@@ -12,12 +12,12 @@
     "static/media/description.png": "/parent-house-guide/static/media/description.a8500223911cc5305284.png",
     "static/media/caution.png": "/parent-house-guide/static/media/caution.36383506084c52823207.png",
     "index.html": "/parent-house-guide/index.html",
-    "main.2ac5f8cb.css.map": "/parent-house-guide/static/css/main.2ac5f8cb.css.map",
+    "main.f2c32e3a.css.map": "/parent-house-guide/static/css/main.f2c32e3a.css.map",
     "main.f6997d8a.js.map": "/parent-house-guide/static/js/main.f6997d8a.js.map",
     "787.16df5757.chunk.js.map": "/parent-house-guide/static/js/787.16df5757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ac5f8cb.css",
+    "static/css/main.f2c32e3a.css",
     "static/js/main.f6997d8a.js"
   ]
 }
