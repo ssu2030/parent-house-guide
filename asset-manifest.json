@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/parent-house-guide/static/css/main.f2c32e3a.css",
-    "main.js": "/parent-house-guide/static/js/main.f6997d8a.js",
+    "main.js": "/parent-house-guide/static/js/main.416cc85e.js",
     "static/js/787.16df5757.chunk.js": "/parent-house-guide/static/js/787.16df5757.chunk.js",
     "static/media/summerhouse.jpeg": "/parent-house-guide/static/media/summerhouse.84ce805954135b75ef75.jpeg",
     "static/media/housewithwall.jpeg": "/parent-house-guide/static/media/housewithwall.b3770799ed68a30d333e.jpeg",
@@ -11,13 +11,14 @@
     "static/media/beahouse.jpeg": "/parent-house-guide/static/media/beahouse.70f98f29da908b373066.jpeg",
     "static/media/description.png": "/parent-house-guide/static/media/description.a8500223911cc5305284.png",
     "static/media/caution.png": "/parent-house-guide/static/media/caution.36383506084c52823207.png",
+    "static/media/title.png": "/parent-house-guide/static/media/title.cb677fb9b6b862175838.png",
     "index.html": "/parent-house-guide/index.html",
     "main.f2c32e3a.css.map": "/parent-house-guide/static/css/main.f2c32e3a.css.map",
-    "main.f6997d8a.js.map": "/parent-house-guide/static/js/main.f6997d8a.js.map",
+    "main.416cc85e.js.map": "/parent-house-guide/static/js/main.416cc85e.js.map",
     "787.16df5757.chunk.js.map": "/parent-house-guide/static/js/787.16df5757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2c32e3a.css",
-    "static/js/main.f6997d8a.js"
+    "static/js/main.416cc85e.js"
   ]
 }
