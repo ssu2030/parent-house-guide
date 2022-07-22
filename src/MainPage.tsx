@@ -11,6 +11,7 @@ import Button from '@material-ui/core/Button';
 import HomePageComponent from './HomePage';
 import DescriptionPageComponent from "./DescriptionPage";
 import MapPageComponent from "./MapPage";
+import CautionPageComponent from "./CautionPage";
 
 const MainPageComponent: React.FC = () => {
     
@@ -28,6 +29,7 @@ const MainPageComponent: React.FC = () => {
             {hompageOpen && <HomePageComponent/>}
             {descriptionPageOpen && <DescriptionPageComponent/>}
             {mapPageOpen && <MapPageComponent/>}
+            {cautionPageOpen && <CautionPageComponent/>}
             <div className="ButtonsWrapper">
                 <div className="ButtonWrapper">
                     <Button id={"homeButton"} variant="text" className="HomeButton" onClick={e=>{
