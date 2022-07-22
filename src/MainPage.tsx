@@ -17,7 +17,7 @@ const MainPageComponent: React.FC = () => {
     const [descriptionPageOpen,setDescriptionPageOpen] = useState<boolean>(false);
 
     return (
-    <>
+    <div id="MainWrapper" className="MainWrapper">
         <div className="Main">
             <div className="Title">
                 <img alt={"title"} style={{width: "60%"}} src={title}/>
@@ -52,9 +52,8 @@ const MainPageComponent: React.FC = () => {
                     </Button>
                 </div>
             </div>
-            
         </div>
-    </>
+    </div>
     )
     ;
 
