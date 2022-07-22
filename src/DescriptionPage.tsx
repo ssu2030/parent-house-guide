@@ -2,7 +2,8 @@ import React from "react";
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/swiper.min.css";
 import "swiper/components/navigation/navigation.min.css";
-import SwiperCore, { Navigation} from "swiper";
+import "swiper/components/pagination/pagination.min.css";
+import SwiperCore, { Navigation, Pagination} from "swiper";
 
 import './style/DescriptionPage.css'
 
@@ -31,72 +32,72 @@ const DescriptionPageComponent: React.FC = () => {
     
     return (
     <div className="DescriptionOutDivision">
-        <div className="StringDivision">
-            짓는 과정
-        </div>
-        <Swiper className="Swiper">
+        <Swiper className="Swiper" pagination={true}>
             <SwiperSlide>
-                <img alt={"img"} style={{width:"400px", height:"400px"}} src={BF1}/>
+                <img alt={"img"} style={{width:"380px", height:"380px"}} src={BF1}/>
             </SwiperSlide>
             <SwiperSlide>
-                <img alt={"img"} style={{width:"400px", height:"400px"}} src={BF2}/>
+                <img alt={"img"} style={{width:"380px", height:"380px"}} src={BF2}/>
             </SwiperSlide>
             <SwiperSlide>
-                <img alt={"img"} style={{width:"400px", height:"400px"}} src={BF3}/>
+                <img alt={"img"} style={{width:"380px", height:"380px"}} src={BF3}/>
             </SwiperSlide>
             <SwiperSlide>
-                <img alt={"img"} style={{width:"400px", height:"400px"}} src={BF4}/>
+                <img alt={"img"} style={{width:"380px", height:"380px"}} src={BF4}/>
             </SwiperSlide>
         </Swiper>
         <div className="StringDivision">
-            이 집의 경우, 엄마 아빠의 노후를 위한 집입니다. 퇴직 후 안락한 농촌 life를 즐기기 위한 집이죠.
-            <br></br>
-            엄마 아빠의 피땀 눈물이 들어갔습니다. 
+            maison de essense
         </div>
-        <Swiper className="Swiper">
+        <div className="StringDivision">
+            이 집의 이름은 정수의 집, 어머니 아버지의 이름 첫 자들을 가져와 지었습니다. 부모님이 퇴직 후 안락한 노후 생활을 위한 집입니다.
+            <br></br>
+            2020년 부터, 짓기 시작한 집은 약 1년에 걸쳐 완공되었습니다. 여러 설계 도면중 프랑스 기와를 선택하여 꽃을 좋아하는 어머니와, 주변의 자연을 가꾸는 것을 좋아하는 아버지에게 어울리는 느낌으로 지은 집입니다.
+            <br></br>
+        </div>
+        <Swiper className="Swiper" pagination={true}>
             <SwiperSlide>
-                <img alt={"img"} style={{width:"400px", height:"400px"}} src={flower1}/>
+                <img alt={"img"} style={{width:"380px", height:"380px"}} src={flower1}/>
             </SwiperSlide>
             <SwiperSlide>
-                <img alt={"img"} style={{width:"400px", height:"400px"}} src={flower2}/>
+                <img alt={"img"} style={{width:"380px", height:"380px"}} src={flower2}/>
             </SwiperSlide>
             <SwiperSlide>
-                <img alt={"img"} style={{width:"400px", height:"400px"}} src={sky1}/>
+                <img alt={"img"} style={{width:"380px", height:"380px"}} src={sky1}/>
             </SwiperSlide>
             <SwiperSlide>
-                <img alt={"img"} style={{width:"400px", height:"400px"}} src={sky2}/>
+                <img alt={"img"} style={{width:"380px", height:"380px"}} src={sky2}/>
             </SwiperSlide>
         </Swiper>
         <div className="StringDivision">
-            봄, 여름, 가을, 겨울 엄마 아빠가 가꾼 꽃들을 계절별로 구경할 수 있습니다. 엄마 아빠는 화단을 항상 관리하기 때문에, 풀을 뽑기도하고 제초작업과 가끔 제초제를 주기도 합니다.
+            봄, 여름, 가을, 겨울 부모님께서 가꾼 꽃들을 계절별로 구경할 수 있습니다. 뿐만아니라 집 뒤편 하우스에선 부모님께서 좋아하는 과일들을 심어 가꾸고 계십니다.
             <br></br>
-            따라서, 화단을 망치게 되는 경우 그에 적합한 보상금을 내셔야 합니다.
+            어머니께서 특히 좋아하시는 화단은 부모님께서 함께 관리하십니다. 뿐만아니라 집주변 작은 돌담들은 아버지와 어머니께서 직접 쌓아올리신 것이므로 훼손하게 되는 경우, 원상복구 시켜야 합니다.
         </div>
-        <Swiper className="Swiper">
+        <Swiper className="Swiper" pagination={true}>
             <SwiperSlide>
-                <img alt={"img"} style={{width:"400px", height:"400px"}} src={farm1}/>
+                <img alt={"img"} style={{width:"380px", height:"380px"}} src={farm1}/>
             </SwiperSlide>
             <SwiperSlide>
-                <img alt={"img"} style={{width:"400px", height:"400px"}} src={farm2}/>
+                <img alt={"img"} style={{width:"380px", height:"380px"}} src={farm2}/>
             </SwiperSlide>
         </Swiper>
         <div className="StringDivision">
-            집 앞에 있는 깨 농사를 하는 곳입니다. 안개가 예쁘게 꼈고 현재 무럭무럭 잘 자라고 있는 것을 볼 수 있습니다.
+            부모님께선 현재 작게 농사를 지어보고 있습니다. 하우스의 여러 채소와 밭에 호박, 깨 등의 작물등을 키우며 관리하고 계십니다.
             <br></br>
-            따라서, 밭을 망치게 되는 경우 그에 적합한 보상금을 내셔야 합니다.
+            밭에 있는 작물이나 하우스에 있는 채소들을 훼손하거나 가져가실 경우 그에 맞는 보상을 해주셔야 합니다.
             <br></br>
-            예쁜 논 풍경입니다. 우리 집 논은 아니지만 예뻐서 사진에 담았습니다.
         </div>
-        <Swiper className="Swiper">
+        <Swiper className="Swiper" pagination={true}>
             <SwiperSlide>
-                <img alt={"img"} style={{width:"400px", height:"400px"}} src={water1}/>
+                <img alt={"img"} style={{width:"380px", height:"380px"}} src={water1}/>
             </SwiperSlide>
             <SwiperSlide>
-                <img alt={"img"} style={{width:"400px", height:"400px"}} src={water2}/>
+                <img alt={"img"} style={{width:"380px", height:"380px"}} src={water2}/>
             </SwiperSlide>
         </Swiper>
         <div className="StringDivision">
-            집 근처 작은 계곡이 있습니다. 물놀이를 즐길 수 있고 낚시를 즐길 수 있습니다. 송사리등 민물고기등을 잡을 수 있습니다.
+            집 앞으로 조금 내려가면 작은 계곡이 있습니다. 물놀이를 즐길 수 있고 낚시를 즐길 수 있습니다. 송사리등 민물고기등을 잡을 수 있습니다.
             <br></br>
             계곡에서 놀고 난 후 발생한 쓰레기들은 모두 수거해 가셔야 합니다.
         </div>

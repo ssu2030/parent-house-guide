@@ -19,16 +19,16 @@ const HomePageComponent: React.FC = () => {
     <div className="HomeOutDivision">
         <Swiper className="Swiper">
             <SwiperSlide>
-                <img alt={"img"} style={{width:"400px", height:"400px"}} src={summerHouse}/>
+                <img alt={"img"} style={{width:"380px", height:"380px"}} src={summerHouse}/>
             </SwiperSlide>
             <SwiperSlide>
-                <img alt={"img"} style={{width:"400px", height:"400px"}} src={houseWithWall}/>
+                <img alt={"img"} style={{width:"380px", height:"380px"}} src={houseWithWall}/>
             </SwiperSlide>
             <SwiperSlide>
-                <img alt={"img"} style={{width:"400px", height:"400px"}} src={houseback}/>
+                <img alt={"img"} style={{width:"380px", height:"380px"}} src={houseback}/>
             </SwiperSlide>
             <SwiperSlide>
-                <img alt={"img"} style={{width:"400px", height:"400px"}} src={window}/>
+                <img alt={"img"} style={{width:"380px", height:"380px"}} src={window}/>
             </SwiperSlide>
         </Swiper>
     </div>)

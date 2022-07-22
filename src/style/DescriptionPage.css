@@ -9,18 +9,29 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 420px;
-    height: 460pxt;
-    max-height: 460px;
+    width: 400px;
+    max-width: 400px;
+    height: 500px;
+    max-height: 500px;
     overflow: auto;
     margin: 0 auto;
+}
+
+.StringTitleDivision {
+    font-size: Large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    text-align: left;
+    text-align: center;
+    margin-top: 15px;
 }
 
 .StringDivision {
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
-    text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+    text-align: left;
+    margin-left: 10px;
 }
