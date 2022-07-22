@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import home from './img/home.png';
 import description from './img/description.png';
 import map from './img/map.png';
@@ -9,9 +9,12 @@ import './style/MainPage.css'
 import Button from '@material-ui/core/Button';
 
 import HomePageComponent from './HomePage';
+import DescriptionPageComponent from "./DescriptionPage";
 
 const MainPageComponent: React.FC = () => {
     
+    const [hompageOpen,setHompageOpen] = useState<boolean>(true);
+    const [descriptionPageOpen,setDescriptionPageOpen] = useState<boolean>(false);
 
     return (
     <>
@@ -19,15 +22,22 @@ const MainPageComponent: React.FC = () => {
             <div className="Title">
                 <img alt={"title"} style={{width: "60%"}} src={title}/>
             </div>
-            <HomePageComponent/>
+            {hompageOpen && <HomePageComponent/>}
+            {descriptionPageOpen && <DescriptionPageComponent/>}
             <div className="ButtonsWrapper">
                 <div className="ButtonWrapper">
-                    <Button id={"homeButton"} variant="text" className="HomeButton">
+                    <Button id={"homeButton"} variant="text" className="HomeButton" onClick={e=>{
+                        setHompageOpen(true);
+                        setDescriptionPageOpen(false);
+                    }}>
                         <img alt={"home"} style={{width: "54px", height: "54px"}} src={home}/>
                     </Button>
                 </div>
                 <div className="ButtonWrapper">
-                    <Button id={"introButton"} variant="text" className="HomeButton">
+                    <Button id={"introButton"} variant="text" className="HomeButton" onClick={e=>{
+                        setHompageOpen(false);
+                        setDescriptionPageOpen(true);
+                    }}>
                         <img alt={"description"} style={{width: "54px", height: "54px"}} src={description}/>
                     </Button>
                 </div>
