@@ -3,6 +3,7 @@ import home from './img/home.png';
 import description from './img/description.png';
 import map from './img/map.png';
 import caution from './img/caution.png';
+import title from './img/title.png';
 
 import './style/MainPage.css'
 import Button from '@material-ui/core/Button';
@@ -16,7 +17,7 @@ const MainPageComponent: React.FC = () => {
     <>
         <div className="Main">
             <div className="Title">
-            maison de essence
+                <img alt={"title"} style={{width: "100%", height: "30px"}} src={title}/>
             </div>
             <HomePageComponent/>
             <div className="ButtonsWrapper">
