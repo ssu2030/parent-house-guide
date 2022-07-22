@@ -7,9 +7,9 @@ import SwiperCore, { Navigation} from "swiper";
 import './style/DescriptionPage.css'
 
 import BF1 from './photo/BeforeBuilted1.jpeg';
-import BF2 from './photo/BeforeBuilted2.jpeg';
-import BF3 from './photo/BeforeBuilted3.jpeg';
-import BF4 from './photo/BeforeBuilted4.jpeg';
+import BF2 from './photo/beforeBuilted2.jpeg';
+import BF3 from './photo/beforeBuilted3.jpeg';
+import BF4 from './photo/beforeBuilted4.jpeg';
 
 import flower1 from './photo/flower.jpeg';
 import flower2 from './photo/flowerwithbees.jpeg';
