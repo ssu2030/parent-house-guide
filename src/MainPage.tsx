@@ -22,22 +22,22 @@ const MainPageComponent: React.FC = () => {
             <div className="ButtonsWrapper">
                 <div className="ButtonWrapper">
                     <Button id={"homeButton"} variant="text" className="HomeButton">
-                        <img alt={"home"} style={{width: "48px", height: "48px"}} src={home}/>
+                        <img alt={"home"} style={{width: "54px", height: "54px"}} src={home}/>
                     </Button>
                 </div>
                 <div className="ButtonWrapper">
                     <Button id={"introButton"} variant="text" className="HomeButton">
-                        <img alt={"description"} src={description}/>
+                        <img alt={"description"} style={{width: "54px", height: "54px"}} src={description}/>
                     </Button>
                 </div>
                 <div className="ButtonWrapper">
                     <Button id={"warnButton"} variant="text" className="HomeButton">
-                        <img alt={"caution"} style={{width: "54px", height: "54px"}} src={caution}/>
+                        <img alt={"caution"} style={{height: "54px"}} src={caution}/>
                     </Button>
                 </div>
                 <div className="ButtonWrapper">
                     <Button id={"wayButton"} variant="text" className="HomeButton">
-                        <img alt={"map"} src={map}/>
+                        <img alt={"map"} style={{ height: "54px"}} src={map}/>
                     </Button>
                 </div>
             </div>
