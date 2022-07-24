@@ -32,7 +32,7 @@ const DescriptionPageComponent: React.FC = () => {
     
     return (
     <div className="DescriptionOutDivision">
-        <Swiper className="Swiper" >
+        <Swiper className="DescriptionSwiper" >
             <SwiperSlide>
                 <img alt={"img"} style={{width:"380px", height:"380px"}} src={BF1}/>
             </SwiperSlide>
@@ -52,7 +52,7 @@ const DescriptionPageComponent: React.FC = () => {
             꽃을 좋아하는 어머니와, 주변의 자연을 좋아하는 아버지에게 어울리는 느낌으로 지은 집입니다.
             <br/>
         </div>
-        <Swiper className="Swiper" >
+        <Swiper className="DescriptionSwiper" >
             <SwiperSlide>
                 <img alt={"img"} style={{width:"380px", height:"380px"}} src={flower1}/>
             </SwiperSlide>
@@ -71,7 +71,7 @@ const DescriptionPageComponent: React.FC = () => {
             <br/>
             어머니께서 특히 좋아하시는 화단은 부모님께서 함께 관리하십니다. 뿐만아니라 집주변 작은 돌담들은 아버지와 어머니께서 직접 쌓으셨습니다.
         </div>
-        <Swiper className="Swiper" >
+        <Swiper className="DescriptionSwiper" >
             <SwiperSlide>
                 <img alt={"img"} style={{width:"380px", height:"380px"}} src={farm1}/>
             </SwiperSlide>
@@ -83,7 +83,7 @@ const DescriptionPageComponent: React.FC = () => {
         &nbsp; 하우스의 여러 채소와 밭에 호박, 깨 등의 작물등을 키우며 관리하고 있습니다.
             <br/>
         </div>
-        <Swiper className="Swiper" >
+        <Swiper className="DescriptionSwiper" >
             <SwiperSlide>
                 <img alt={"img"} style={{width:"380px", height:"380px"}} src={water1}/>
             </SwiperSlide>
