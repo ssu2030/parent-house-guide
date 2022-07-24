@@ -23,9 +23,6 @@ const MainPageComponent: React.FC = () => {
     return (
     <div id="MainWrapper" className="MainWrapper">
         <div className="Main">
-            <div className="Title">
-                <img alt={"title"} style={{width: "60%"}} src={title}/>
-            </div>
             {hompageOpen && <HomePageComponent/>}
             {descriptionPageOpen && <DescriptionPageComponent/>}
             {mapPageOpen && <MapPageComponent/>}
