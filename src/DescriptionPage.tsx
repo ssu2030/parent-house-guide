@@ -32,10 +32,7 @@ const DescriptionPageComponent: React.FC = () => {
     
     return (
     <div className="DescriptionOutDivision">
-        <Swiper className="Swiper" spaceBetween={30}
-            pagination={{
-                clickable: true,
-            }}>
+        <Swiper className="Swiper" >
             <SwiperSlide>
                 <img alt={"img"} style={{width:"380px", height:"380px"}} src={BF1}/>
             </SwiperSlide>
@@ -53,15 +50,14 @@ const DescriptionPageComponent: React.FC = () => {
             maison de essense
         </div>
         <div className="StringDivision">
-            이 집의 이름은 정수의 집, 어머니 아버지의 이름 첫 자들을 가져와 지었습니다. 부모님이 퇴직 후 안락한 노후 생활을 위한 집입니다.
-            <br></br>
-            2020년 부터, 짓기 시작한 집은 약 1년에 걸쳐 완공되었습니다. 여러 설계 도면중 프랑스 기와를 선택하여 꽃을 좋아하는 어머니와, 주변의 자연을 가꾸는 것을 좋아하는 아버지에게 어울리는 느낌으로 지은 집입니다.
-            <br></br>
+            부모님이 퇴직 후 안락한 노후 생활을 보내기 위해 지어진 집입니다.
+            <br/>
+            2020년 부터, 짓기 시작한 집은 약 1년에 걸쳐 완공되었습니다. 
+            <br/>
+            꽃을 좋아하는 어머니와, 주변의 자연을 좋아하는 아버지에게 어울리는 느낌으로 지은 집입니다.
+            <br/>
         </div>
-        <Swiper className="Swiper" spaceBetween={30}
-            pagination={{
-                clickable: true,
-            }}>
+        <Swiper className="Swiper" >
             <SwiperSlide>
                 <img alt={"img"} style={{width:"380px", height:"380px"}} src={flower1}/>
             </SwiperSlide>
@@ -77,13 +73,10 @@ const DescriptionPageComponent: React.FC = () => {
         </Swiper>
         <div className="StringDivision">
             봄, 여름, 가을, 겨울 부모님께서 가꾼 꽃들을 계절별로 구경할 수 있습니다. 뿐만아니라 집 뒤편 하우스에선 부모님께서 좋아하는 과일들을 심어 가꾸고 계십니다.
-            <br></br>
-            어머니께서 특히 좋아하시는 화단은 부모님께서 함께 관리하십니다. 뿐만아니라 집주변 작은 돌담들은 아버지와 어머니께서 직접 쌓아올리신 것이므로 훼손하게 되는 경우, 원상복구 시켜야 합니다.
+            <br/>
+            어머니께서 특히 좋아하시는 화단은 부모님께서 함께 관리하십니다. 뿐만아니라 집주변 작은 돌담들은 아버지와 어머니께서 직접 쌓으셨습니다.
         </div>
-        <Swiper className="Swiper" spaceBetween={30}
-            pagination={{
-                clickable: true,
-            }}>
+        <Swiper className="Swiper" >
             <SwiperSlide>
                 <img alt={"img"} style={{width:"380px", height:"380px"}} src={farm1}/>
             </SwiperSlide>
@@ -92,15 +85,10 @@ const DescriptionPageComponent: React.FC = () => {
             </SwiperSlide>
         </Swiper>
         <div className="StringDivision">
-            부모님께선 현재 작게 농사를 지어보고 있습니다. 하우스의 여러 채소와 밭에 호박, 깨 등의 작물등을 키우며 관리하고 계십니다.
-            <br></br>
-            밭에 있는 작물이나 하우스에 있는 채소들을 훼손하거나 가져가실 경우 그에 맞는 보상을 해주셔야 합니다.
-            <br></br>
+            하우스의 여러 채소와 밭에 호박, 깨 등의 작물등을 키우며 관리하고 있습니다.
+            <br/>
         </div>
-        <Swiper className="Swiper" spaceBetween={30}
-            pagination={{
-                clickable: true,
-            }}>
+        <Swiper className="Swiper" >
             <SwiperSlide>
                 <img alt={"img"} style={{width:"380px", height:"380px"}} src={water1}/>
             </SwiperSlide>
@@ -109,9 +97,9 @@ const DescriptionPageComponent: React.FC = () => {
             </SwiperSlide>
         </Swiper>
         <div className="StringDivision">
-            집 앞으로 조금 내려가면 작은 계곡이 있습니다. 물놀이를 즐길 수 있고 낚시를 즐길 수 있습니다. 송사리등 민물고기등을 잡을 수 있습니다.
-            <br></br>
-            계곡에서 놀고 난 후 발생한 쓰레기들은 모두 수거해 가셔야 합니다.
+            집 앞으로 조금 내려가면 작은 계곡이 있습니다. 
+            <br/>
+            물놀이를 즐길 수 있고 낚시를 즐길 수 있습니다. 송사리등 민물고기등을 잡을 수 있습니다.
         </div>
     </div>)
     ;
