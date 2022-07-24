@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/parent-house-guide/static/css/main.31db1553.css",
-    "main.js": "/parent-house-guide/static/js/main.826e477e.js",
+    "main.css": "/parent-house-guide/static/css/main.02f093e6.css",
+    "main.js": "/parent-house-guide/static/js/main.b6702246.js",
     "static/js/787.16df5757.chunk.js": "/parent-house-guide/static/js/787.16df5757.chunk.js",
     "static/media/water.jpeg": "/parent-house-guide/static/media/water.175888f9866a5ea201a1.jpeg",
     "static/media/summerhouse.jpeg": "/parent-house-guide/static/media/summerhouse.5c58e12cef4b7ca6e193.jpeg",
@@ -21,16 +21,18 @@
     "static/media/caution.png": "/parent-house-guide/static/media/caution.7388027f721994955daa.png",
     "static/media/beasky.jpeg": "/parent-house-guide/static/media/beasky.d42d1ed2363b632bb22e.jpeg",
     "static/media/flowerwithbees.jpeg": "/parent-house-guide/static/media/flowerwithbees.aa8912ff6370ad79b1a0.jpeg",
+    "static/media/outsidestring.png": "/parent-house-guide/static/media/outsidestring.efcfedd2f54e39360845.png",
     "static/media/home.png": "/parent-house-guide/static/media/home.cbaef8cf1deffc185b00.png",
+    "static/media/insideString.png": "/parent-house-guide/static/media/insideString.65b062c4eefbfde47f2e.png",
     "static/media/description.png": "/parent-house-guide/static/media/description.1f9fe709da80b550fd68.png",
     "static/media/title.png": "/parent-house-guide/static/media/title.cb677fb9b6b862175838.png",
     "index.html": "/parent-house-guide/index.html",
-    "main.31db1553.css.map": "/parent-house-guide/static/css/main.31db1553.css.map",
-    "main.826e477e.js.map": "/parent-house-guide/static/js/main.826e477e.js.map",
+    "main.02f093e6.css.map": "/parent-house-guide/static/css/main.02f093e6.css.map",
+    "main.b6702246.js.map": "/parent-house-guide/static/js/main.b6702246.js.map",
     "787.16df5757.chunk.js.map": "/parent-house-guide/static/js/787.16df5757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31db1553.css",
-    "static/js/main.826e477e.js"
+    "static/css/main.02f093e6.css",
+    "static/js/main.b6702246.js"
   ]
 }
