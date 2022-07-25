@@ -8,8 +8,8 @@
 .Main {
     display: flex;
     flex-direction: column;
-    width: 500px;
-    height: 720px;
+    width: 100%;
+    height: fit-content;
     max-width: 440px;
     max-height: 720px;
     background-color: white;
