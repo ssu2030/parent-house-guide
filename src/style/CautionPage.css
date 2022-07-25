@@ -24,6 +24,7 @@
 
 
 .container {
+    background-image: url('../photo/skybackground.jpg');
     z-index: 1;
     position: relative;
     overflow: hidden;
