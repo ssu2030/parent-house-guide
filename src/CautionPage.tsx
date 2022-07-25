@@ -9,10 +9,21 @@ const CautionPageComponent: React.FC = () => {
     
     return (
         <div className="CautionOutDivision">
+            <div className="container">	
+	        <div className="bird-container bird-container--one">
+            	<div className="bird bird--one"></div>
+    	    </div>
+	        <div className="bird-container bird-container--two">
+		        <div className="bird bird--two"></div>
+	        </div>
+	        <div className="bird-container bird-container--three">
+		        <div className="bird bird--three"></div>
+	        </div>
+	        <div className="bird-container bird-container--four">
+		        <div className="bird bird--four"></div>
+	        </div>
             <div className="StringDivision">
                 집에 놀러오게 되실 경우, 몇 가지 유의사항이 있습니다.
-                <br/>
-                집안에서 지켜주셔야 할것과 밖에서 지켜주셔야 할 부분을 나누었습니다.
                 <br/>
             </div>
             <div className="StringDivision">
@@ -35,19 +46,6 @@ const CautionPageComponent: React.FC = () => {
                 &nbsp;&nbsp;‣ 돌담을 차거나 무너뜨리는 행위를 하시면 안됩니다.
                 <br/>
             </div>
-            <div className="container">	
-	        <div className="bird-container bird-container--one">
-            	<div className="bird bird--one"></div>
-    	    </div>
-	        <div className="bird-container bird-container--two">
-		        <div className="bird bird--two"></div>
-	        </div>
-	        <div className="bird-container bird-container--three">
-		        <div className="bird bird--three"></div>
-	        </div>
-	        <div className="bird-container bird-container--four">
-		        <div className="bird bird--four"></div>
-	        </div>
         </div>
         </div>
         );
