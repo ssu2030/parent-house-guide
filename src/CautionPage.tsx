@@ -24,7 +24,7 @@ const CautionPageComponent: React.FC = () => {
                 </div>
             </div>
                 <div className="StringDivision">
-                    집에 놀러오게 되실 경우, 몇 가지 유의사항이 있습니다.<br/>
+                    부모님 집에 방문하시는 경우, 몇 가지 유의사항이 있습니다.<br/>
                 </div>
                 <div className="StringDivision">
                     <img alt={"inside"} style={{height: "30px"}} src={inside}/><br/>
@@ -34,7 +34,7 @@ const CautionPageComponent: React.FC = () => {
                 </div>
                 <div className="StringDivision">
                     <img alt={"outside"} style={{height: "30px"}} src={outside}/><br/>
-                    &nbsp;&nbsp;‣ 가급적 외부에서 돌아다닐 경우엔 벌레를 피하기 위해, 긴바지를 입도록 합니다. <br/>
+                    &nbsp;&nbsp;‣ 가급적 외부에서 돌아다닐 경우엔 <strong>벌레</strong>를 피하기 위해, <strong>긴바지</strong>를 입도록 합니다. <br/>
                     &nbsp;&nbsp;‣ 밤에 외출시엔 <strong>라이트를 켜 뱀이 있는지 없는지 확인</strong>해야 합니다.<br/>
                 </div>
         </div>
