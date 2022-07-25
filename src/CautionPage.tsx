@@ -27,17 +27,15 @@ const CautionPageComponent: React.FC = () => {
                     집에 놀러오게 되실 경우, 몇 가지 유의사항이 있습니다.<br/>
                 </div>
                 <div className="StringDivision">
-                    <img alt={"inside"} style={{height: "30px"}} src={inside}/>
+                    <img alt={"inside"} style={{height: "30px"}} src={inside}/><br/>
                     &nbsp;&nbsp;‣ 현관문 사이의 <strong>중문</strong>을 꼭 닫고 다녀야 합니다.<br/>
                     &nbsp;&nbsp;‣ 휴지는 변기에 버리는 것이 아니라, <strong>휴지통</strong>에 버려주셔야 합니다.<br/>
                     <br/>
                 </div>
                 <div className="StringDivision">
                     <img alt={"outside"} style={{height: "30px"}} src={outside}/><br/>
-                    &nbsp;&nbsp;‣ 꽃밭에 꽃을 <strong>꺾거</strong>나, <strong>밟지 않도록</strong> 조심하셔야 합니다.<br/>
-                    &nbsp;&nbsp;‣ 꽃밭이나 외부에 <strong>쓰레기</strong>를 버리시면 안됩니다. <br/>
+                    &nbsp;&nbsp;‣ 가급적 외부에서 돌아다닐 경우엔 벌레를 피하기 위해, 긴바지를 입도록 합니다. <br/>
                     &nbsp;&nbsp;‣ 밤에 외출시엔 <strong>라이트를 켜 뱀이 있는지 없는지 확인</strong>해야 합니다.<br/>
-                    &nbsp;&nbsp;‣ 돌담을 차거나 무너뜨리는 행위를 하시면 안됩니다.<br/>
                 </div>
         </div>
         );
