@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/parent-house-guide/static/css/main.a594566b.css",
-    "main.js": "/parent-house-guide/static/js/main.b95aa14c.js",
+    "main.js": "/parent-house-guide/static/js/main.46cca0b6.js",
     "static/js/787.16df5757.chunk.js": "/parent-house-guide/static/js/787.16df5757.chunk.js",
     "static/media/water.jpeg": "/parent-house-guide/static/media/water.175888f9866a5ea201a1.jpeg",
     "static/media/summerhouse.jpeg": "/parent-house-guide/static/media/summerhouse.5c58e12cef4b7ca6e193.jpeg",
@@ -28,11 +28,11 @@
     "static/media/title.png": "/parent-house-guide/static/media/title.cb677fb9b6b862175838.png",
     "index.html": "/parent-house-guide/index.html",
     "main.a594566b.css.map": "/parent-house-guide/static/css/main.a594566b.css.map",
-    "main.b95aa14c.js.map": "/parent-house-guide/static/js/main.b95aa14c.js.map",
+    "main.46cca0b6.js.map": "/parent-house-guide/static/js/main.46cca0b6.js.map",
     "787.16df5757.chunk.js.map": "/parent-house-guide/static/js/787.16df5757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a594566b.css",
-    "static/js/main.b95aa14c.js"
+    "static/js/main.46cca0b6.js"
   ]
 }
