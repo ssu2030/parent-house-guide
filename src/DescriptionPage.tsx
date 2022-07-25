@@ -67,8 +67,7 @@ const DescriptionPageComponent: React.FC = () => {
             </SwiperSlide>
         </Swiper>
         <div className="StringDivision">
-        &nbsp;봄, 여름, 가을, 겨울 부모님께서 가꾼 꽃들을 계절별로 구경할 수 있습니다. 뿐만아니라 집 뒤편 하우스에선 부모님께서 좋아하는 과일들을 심어 가꾸고 계십니다.
-            <br/>
+            &nbsp;봄, 여름, 가을, 겨울 부모님께서 가꾼 꽃들을 계절별로 구경할 수 있습니다. 뿐만아니라 집 뒤편 하우스에선 부모님께서 좋아하는 과일들을 심어 가꾸고 계십니다. <br/>
             어머니께서 특히 좋아하시는 화단은 부모님께서 함께 관리하십니다. 뿐만아니라 집주변 작은 돌담들은 아버지와 어머니께서 직접 쌓으셨습니다.
         </div>
         <Swiper className="DescriptionSwiper" >
@@ -80,8 +79,7 @@ const DescriptionPageComponent: React.FC = () => {
             </SwiperSlide>
         </Swiper>
         <div className="StringDivision">
-        &nbsp; 하우스의 여러 채소와 밭에 호박, 깨 등의 작물등을 키우며 관리하고 있습니다.
-            <br/>
+            &nbsp; 하우스의 여러 채소와 밭에 호박, 깨 등의 작물등을 키우며 관리하고 있습니다.<br/>
         </div>
         <Swiper className="DescriptionSwiper" >
             <SwiperSlide>
@@ -92,8 +90,7 @@ const DescriptionPageComponent: React.FC = () => {
             </SwiperSlide>
         </Swiper>
         <div className="StringDivision">
-        &nbsp;집 앞으로 조금 내려가면 작은 계곡이 있습니다. 
-            <br/>
+            &nbsp;집 앞으로 조금 내려가면 작은 계곡이 있습니다.<br/>
             물놀이를 즐길 수 있고 낚시를 즐길 수 있습니다. 송사리등 민물고기등을 잡을 수 있습니다.
         </div>
     </div>)
